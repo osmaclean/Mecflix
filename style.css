@@ -10,23 +10,30 @@ ul,
 ol,
 li {
     list-style: none;
+    background-color: black;
 
 }
 
-img{
+img {
     display: flex;
-    
+    background-color: black;
+
 }
 
-.perfis img{
+.perfis img {
     margin: 10px;
+    background-color: black;
 }
 
 .logo {
     margin: 0 auto;
-    width: 15%;
-    height: 250px;
-   
+    width: 20%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
 
 }
 
@@ -37,6 +44,7 @@ img{
     margin: 0 auto;
     margin-top: -20px;
     letter-spacing: 1px;
+    background-color: black;
 }
 
 .container {
@@ -46,6 +54,7 @@ img{
     width: 100%;
     flex-direction: column;
     margin: 0 auto;
+    background-color: black;
 }
 
 
@@ -54,6 +63,7 @@ ul {
     justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: black;
 }
 
 .perfis {
@@ -63,26 +73,30 @@ ul {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    background-color: black;
 }
 
 .perfis img:hover {
 
     border: 3px solid white;
     border-radius: 5px;
-  
+    background-color: black;
+
 
 }
 
 .botao {
 
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
 
 
 }
-.botao-style{
+
+.botao-style {
     background-color: black;
     color: white;
     border: 2px solid white;
@@ -93,6 +107,7 @@ ul {
     font-size: 17px;
     margin-left: 40px;
     margin-bottom: 100px;
+
 }
 
 .botao-style:hover {
@@ -103,9 +118,10 @@ ul {
 
 }
 
-.footer{
- color: white;
- text-align: center;
- margin-left: 40px;
- font-size: 13px;
+.footer {
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 13px;
+    background-color: black;
 }
