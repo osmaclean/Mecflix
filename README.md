@@ -7,6 +7,12 @@
 
 <hr>
 
+## Link do Deploy (Vercel)
+
+https://mecflix-ecru.vercel.app/
+
+<hr>
+
 # IDE Utilizada
 
 <div> 
