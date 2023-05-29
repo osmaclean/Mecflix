@@ -13,16 +13,7 @@ ol,
 li {
     list-style: none;
     background-color: black;
-
 }
-
-/* img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-
-} */
 
 .perfis img {
     border-radius: 8px;
@@ -40,8 +31,6 @@ li {
     justify-content: center;
     align-items: center;
     background-color: black;
-   
-
 }
 
 .color {
@@ -79,28 +68,26 @@ ul {
     margin-right: 40px;
     background-color: black;
 }
+.perfis img {
+    border: 3px solid black;
+}
 
 .perfis img:hover {
-
     border: 3px solid white;
     border-radius: 5px;
     background-color: black;
-
-
+    cursor: pointer;
 }
 
 .botao {
-
-
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: black;
-
-
 }
 
 .botao-style {
+    cursor: pointer;
     background-color: black;
     color: white;
     border: 2px solid white;
@@ -111,7 +98,6 @@ ul {
     font-size: 17px;
     margin-left: 40px;
     margin-bottom: 80px;
-
 }
 
 .botao-style:hover {
@@ -119,7 +105,6 @@ ul {
     border-radius: 5px;
     background-color: white;
     color: black;
-
 }
 
 .footer {
